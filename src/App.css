@@ -1,0 +1,56 @@
+.container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px 15px;
+}
+
+.container hr{
+  margin: 1rem 0;
+}
+
+.table_container {
+  margin-top: 10px;
+  border: 2px solid #242628;
+  border-radius: 10px;
+  border-spacing: 0;
+}
+
+table thead tr {
+  background-color: #242628;
+}
+
+table thead tr th {
+  padding: 10px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+
+table tbody tr td{
+  border-bottom: 1px solid #242628;
+}
+
+table tbody tr td {
+  padding: 10px;
+}
+
+.pagination_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.pagination_container li {
+  list-style-type: none;
+}
+
+.pagination_container a {
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid #dadadd;
+  padding: 10px;
+}
